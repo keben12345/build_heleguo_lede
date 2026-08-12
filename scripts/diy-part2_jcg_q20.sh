@@ -49,8 +49,8 @@ sed -i '/customized in this file/a net.netfilter.nf_conntrack_max=165535' packag
 #pushd package/community
 
 # Add Lienol's Packages
-git clone --depth=1 https://github.com/Lienol/openwrt-package
-git clone --depth=1 https://github.com/kenzok8/small
+# git clone --depth=1 https://github.com/Lienol/openwrt-package
+# git clone --depth=1 https://github.com/kenzok8/small
 # Add luci-app-eqos
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-eqos
 
@@ -62,7 +62,7 @@ git clone --depth=1 https://github.com/kenzok8/small
 #git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall
 
 # add ssr+ plus
-git clone --depth=1 -b dev https://github.com/fw876/helloworld
+# git clone --depth=1 -b dev https://github.com/fw876/helloworld
 
 # Add luci-app-vssr <M>
 #git clone --depth=1 https://github.com/jerrykuku/lua-maxminddb.git
