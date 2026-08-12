@@ -31,7 +31,7 @@ on:
         - Hair_HAR_20S2U1
         default: JCG_Q20
 env:
-  REPO_URL: https://github.com/vb1980/mtk_lede.git
+  REPO_URL: https://github.com/keben12345/mtk_lede.git
   REPO_BRANCH: mt7915_v5_mtwifi
   FEEDS_CONF: feeds.conf.default
   #CONFIG_FILE: configs/cr660x.config
